@@ -9,7 +9,7 @@ export class ProductPageComponent {
 
   //constructor( private fb: FormBuilder ){}
   private fb = inject( FormBuilder );
-  public color : string = "green";
+  public color : string = 'green';
 
   public myForm: FormGroup = this.fb.group({
     name: [ '', [ Validators.required, Validators.minLength(6), Validators.email ] ]

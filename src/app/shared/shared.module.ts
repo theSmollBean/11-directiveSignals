@@ -10,6 +10,9 @@ import { CustomModuleDirective } from './directives/custom-module.directive';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    CustomModuleDirective,
   ]
 })
 export class SharedModule { }
